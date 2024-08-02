@@ -1,0 +1,48 @@
+.container{
+    background-color:rgb(102, 102, 90);
+    border: solid 2px black;
+    color: white;
+    padding: 100px;
+    
+}
+button{
+    color: white;
+    background-color: brown;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  
+}
+
+.stopwatch {
+    text-align: center;
+    background: rgb(130, 130, 138);
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+   
+    border-radius: 5px;
+    background-color:red;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00b380;
+}
